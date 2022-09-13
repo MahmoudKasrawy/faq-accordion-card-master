@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background:linear-gradient(hsl(273, 75%, 66%),hsl(240, 73%, 65%));
+
+}
+
+
+
+.main{
+    background-color: rgb(254, 250, 250);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    width: 55%;
+    overflow: auto;
+    min-height: 430px;
+    background: url("../images/bg-pattern-desktop.svg");
+    background-size: 700px, 100%;
+    background-repeat: no-repeat; 
+    background-position-x: -370px, -72px;
+    background-position-y: -195px, top;
+    border: solid 1px gray;
+    margin:10% auto;
+    border-radius: 15px;
+}
+.woman{
+    
+    top: 45px;
+    left: -50px;
+    position: absolute;
+    width: 45%;
+ }
+.icon{
+    position: absolute;
+    left:16.5%;
+    top: 35%;
+    z-index: 1111;
+}
+.right{
+    width: 50%;
+    padding-right: 70px;
+    font-size: 16px;
+    color: hsl(238, 29%, 16%);
+
+}
+.right h2{
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    font-size:2em;
+    text-transform: uppercase;
+}
+.right ul{
+    padding-left: 0;
+    list-style-type: none;
+}
+.right ul li {
+    border-bottom: 1px solid hsl(240, 5%, 91%);
+
+
+}
+.right .question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  .question:hover{
+    cursor: pointer;
+    color: hsl(14, 88%, 65%);
+  }
+
+  
+.right .text{
+    
+    padding: 1rem;
+
+    font-size: 0.8em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}  
+.right .answer{
+    margin-left: 1rem;
+    display: none;
+    font-size: 0.7em;
+  
+}
+footer{
+   display: flex;
+   justify-content: center;
+}
+.attribution a{
+    color: white;
+}
